@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.top_bar {
+    background-color: #282A35 ;
+    overflow: hidden;
+    padding: 0 100px;
+    height: 80px;
+    margin-top: -16px;
+
+}
+.logo {
+    color: white;
+    width: 50%;
+    float: left;
+}
+.logo p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+.navbar {
+    width: 50%;
+    float: right;
+}
+.navbar ul {
+    margin-top: 25px;
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+}
+.navbar ul li {
+    float: left;
+}
+.navbar li a {
+    color: white;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    opacity: 0.8;
+}
+
+.content {
+    margin: 10px 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.data_section {
+    padding: 25px;
+}
+.all_data {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+
+}
+.all_data th,td {
+    border: 1px solid lightgray;
+    padding: 15px;
+    text-align: center;
+}
+.btn {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.view_btn {
+    background-color: #3498DB;
+}
+.edit_btn {
+    background-color: #4CAF50;
+}
+.delete_btn {
+    background-color: #dc3545;
+}
+.submit_btn {
+    width: 150px;
+    height: 40px;
+    background-color: #4CAF50;
+}
+.action {
+    display: inline-block;
+}
+
+.form_section {
+    padding: 25px;
+}
+.add_form {
+    padding: 45px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=number], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.view_section {
+    padding: 25px;
+}
+
+.view_data {
+    border: 1px solid gray;
+    padding: 25px;
+}
+
+.alert-danger {
+    color: red;
+    margin:0;
+    padding:0;
+      
+}
+
+.alert {
+    border: 1px solid red;
+}
+
+.successMassage {
+    background: green;
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 350px;
+    border: 1px solid green;
+    padding: 20px;
+}
